@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <section class="container">
+    <h1>Vertical Layout</h1>
+        <form>
+            <div class="form-group">
+                <label>Your annual income</label>
+                <!-- input group (treat it as if it is one <input>) -->
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">$</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>First Name:</label>
+                <input class="form-control" type="text"/>
+            </div>
+            
+            <div class="form-group">
+                <label>Last Name:</label>
+                <input class="form-control" type="text"/>
+            </div>
+            <div class="form-group">
+                <label>Check your favourite cusine</label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="japanese-checkbox"/>
+                    <label class="form-check-label" for="japanese-checkbox">Japanese</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="chinese-checkbox"/>
+                    <label class="form-check-label" for="chinese-checkbox">Chinese</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Check your favourite cusine</label>
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" id="japanese-checkbox"/>
+                    <label class="form-check-label" for="japanese-checkbox">Japanese</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" id="chinese-checkbox"/>
+                    <label class="form-check-label" for="chinese-checkbox">Chinese</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Which kind of seating do you want?</label>
+                <select class="custom-select custom-select-lg" multiple>
+                    <option>Smoking</option>
+                    <option>Non-smoking</option>
+                    <option>Private room</option>
+                </select>
+            </div>
+            <input type="submit" class="btn btn-primary"/>
+        </form>
+    </section>
+
+    <section class="container mt-5">
+        <h1>Horizontal Layout</h1>
+        <form>
+            <div class="form-group row">
+                <label for="first-name" class="col-12 col-md-3 col-lg-2">First Name</label>
+                <input id="first-name" class="form-control col ml-1 mr-1" type="text"/>
+            </div>
+        </form>
+    </section>
+
+    <section class="container mt-5">
+        <h1>Inline Form</h1>
+        <form class="form-inline">
+            <label class="sr-only">First Name</label>
+            <input type="text" placeholder="First Name" class="form-control mr-2"/>
+            <input type="text" placeholder="Last Name" class="form-control"/>
+
+        </form>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

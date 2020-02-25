@@ -1,0 +1,19 @@
+#top-banner {
+    background-image:url(../images/bg/band.jpg);
+    background-size:cover;
+    background-position: center 25%;
+}
+
+#top-banner .container {
+    background-color: rgba(255,255,255,0.5);
+}
+
+#products .card {
+    border-color: lawngreen;
+}
+
+.box {
+    border:1px black solid;
+    width: 50px;
+    height:50px;
+}
